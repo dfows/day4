@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  padding: 15px;
+}
+
+.listAll {
+  list-style-type: none;
+  padding: 0;
+}
+.itemListView {
+  width: 100%;
+}
+.itemImg,
+.itemName {
+  display: inline-block;
+  padding: 5px;
+  vertical-align: middle;
+}
+.itemImg {
+  width: 10%;
+}
+
+.itemHeader {
+  margin-bottom: 10px;
+}
+.itemFullImg,
+.itemInfo {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.itemFullImg {
+  width: 25%;
+}
+.itemInfo {
+  margin-left: 10px;
+}
+.itemDesc {
+  margin-bottom: 20px;
+}
+
+.loggedInThings {
+  width: 20%;
+  margin-bottom: 20px;
+}
+.submissionForm {
+  margin-bottom: 10px;
+}
+.loggedInThings * {
+  width: 100%;
+}
