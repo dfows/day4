@@ -106,7 +106,7 @@ var List = React.createClass({
           addNew={this.props.addNew}
           logout={this.props.logout}
         />
-        <h2>Projects</h2>
+        <h1>Projects</h1>
         <ul className="listAll">
           {Object.keys(this.props.all).map(this.showItemInListMode)}
         </ul>
@@ -123,8 +123,8 @@ var Item = React.createClass({
         <div className="itemHeader">
           <img className="itemFullImg" src={details.img} />
           <div className="itemInfo">
-            <p>{details.name}</p>
-            <p>{details.date}</p>
+            <p className="itemName">{details.name}</p>
+            <p className="itemDate">{details.date}</p>
           </div>
         </div>
         <p className="itemDesc">{details.desc}</p>

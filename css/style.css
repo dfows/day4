@@ -6,38 +6,49 @@
 
 #main {
   padding: 15px;
+  margin: 0 50px;
 }
 
 .listAll {
+  margin-top: 10px;
   list-style-type: none;
   padding: 0;
 }
 .itemListView {
   width: 100%;
+  margin: 20px 0;
 }
 .itemImg,
 .itemName {
   display: inline-block;
-  padding: 5px;
   vertical-align: middle;
 }
 .itemImg {
-  width: 10%;
+  width: 20%;
+  margin-right: 15px;
 }
 
+.itemFullView {
+  width: 65ex;
+  margin: auto;
+}
 .itemHeader {
   margin-bottom: 10px;
 }
 .itemFullImg,
 .itemInfo {
   display: inline-block;
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 .itemFullImg {
-  width: 25%;
+  width: 50%;
 }
 .itemInfo {
   margin-left: 10px;
+  width: calc(50% - 10px);
+}
+.itemName {
+  font-weight: bold;
 }
 .itemDesc {
   margin-bottom: 20px;
